@@ -1,4 +1,11 @@
 ﻿///<summary>
-///
+/// Клас, що виводить посилання "Hello World!"
 ///</summary>
-Console.WriteLine("Hello, World!");
+
+public class Hello
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}
